@@ -79,6 +79,8 @@ vault/
 5. 把 `_templates/` 裡的模板設定為 Obsidian Templates 來源
 6. 開始用 Claude Code（或任何支援讀取本地文件的 AI）在 vault 裡工作
 
+**清除範例檔案：** Clone 後對 Claude 說「清除範例」，它會自動刪除所有以 `_example` 開頭的示範文件，留下乾淨的空白結構讓你開始。
+
 ---
 
 ## 工具建議

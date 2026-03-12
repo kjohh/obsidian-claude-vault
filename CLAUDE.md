@@ -28,7 +28,7 @@
 
 各資料夾有自己的 `CLAUDE.md`，進去工作前先讀對應的規則：
 
-| 資料夾         | 當你說...                                     | 讀這個                 |
+| 資料夾         | 當你說...                                      | 讀這個                 |
 | ----------- | ------------------------------------------- | ------------------- |
 | `meetings/` | 整理逐字稿、幫我整理這份會議、有新的 transcript               | [[meetings/CLAUDE]] |
 | `projects/` | 建立 brief、寫 requirements、產出 design-spec、開新專案 | [[projects/CLAUDE]] |
@@ -60,6 +60,19 @@
 優先度： #priority/urgent  #priority/high  #priority/middle  #priority/low
 負責人： #owner/{your-name}
 ```
+
+---
+
+## 清除範例檔案
+
+如果使用者說「清除範例」或「remove examples」，執行以下動作：
+
+1. 刪除 `meetings/notes/` 內所有以 `_example` 開頭的檔案
+2. 刪除 `projects/` 內所有以 `_example` 開頭的資料夾（含內容）
+3. 刪除 `research/` 內所有以 `_example` 開頭的資料夾（含內容）
+4. 將 `tasks/backlog.md` 的範例 section 清空，只保留空白模板結構
+
+完成後告知使用者哪些東西被刪除了。
 
 ---
 
