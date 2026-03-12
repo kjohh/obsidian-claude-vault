@@ -1,0 +1,11 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.trash/
+
+# macOS
+.DS_Store
+
+# 原始逐字稿（通常含敏感資訊，不上傳）
+meetings/transcripts/*.txt
