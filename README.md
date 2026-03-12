@@ -89,6 +89,36 @@ vault/
 
 ---
 
+## Obsidian Plugins
+
+這個工作流實際使用的 plugin 只有兩個，保持輕量：
+
+- **[Git](https://github.com/Vinzent03/obsidian-git)**：自動備份 vault 到 GitHub，不需要手動 commit
+- **[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)**：在 Obsidian 裡查詢跨文件的 checkbox 任務（配合 backlog.md 使用）
+
+**Claude 整合：**
+
+- **[obsidian-markdown](https://github.com/anthropics/claude-code)**（Claude Code 官方）：讓 Claude 能直接讀取 vault 裡的 `.md` 文件。裝好後，Claude 的 AI Skills 也能在 Obsidian 裡直接使用。
+
+---
+
+## 參考與靈感
+
+這個 vault 結構的設計參考了 Obsidian 創辦人 Steph Ango 的文章：
+
+**[Vault — Steph Ango](https://stephango.com/vault)**
+
+幾個共同的核心理念：
+
+- **File-first**：一切都是普通的 `.md` 檔案，不依賴任何平台或工具的私有格式
+- **Internal links 作為 breadcrumbs**：未建立的連結也有意義，是未來知識串聯的佔位符
+- **一致的個人規則**：固定的 tag taxonomy、frontmatter 格式，減少每次決策的摩擦
+- **模板驅動**：用模板統一文件結構，方便 AI 讀取和查詢
+
+主要差異在於這個模板**以 AI 協作為核心設計目標**——`CLAUDE.md` 是這套系統的靈魂，讓 AI 能理解你的工作脈絡、按你的規則輸出文件。
+
+---
+
 ## License
 
 MIT — 自由使用、修改、分享。
